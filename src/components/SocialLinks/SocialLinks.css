@@ -1,0 +1,17 @@
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  padding-left: 250px;
+  margin-top: 20px;
+}
+
+.icon {
+  color: #333333;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  color: #4a535c;
+}

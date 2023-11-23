@@ -5,18 +5,22 @@ import SubTitle from './components/SubTitle/SubTitle';
 import './App.css';
 import './components/Header/Header.css';
 import HashtagRow from './components/HashtagRow/HashtagRow';
+import SocialLinks from './components/SocialLinks/SocialLinks';
 
 function App() {
   return (
     <div className='App'>
       <Header />
+
       <div id='about'>
         <MainTitle />
         <SubTitle text='Enthusiast with a passion for continuous learning and development. Holding strong values such as empathy and team spirit.' />
         <HashtagRow />
       </div>
 
-      <div id='contact'></div>
+      <div id='contact'>
+        <SocialLinks />
+      </div>
     </div>
   );
 }
