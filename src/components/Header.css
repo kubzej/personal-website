@@ -1,0 +1,36 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.nav-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #007bff;
+  text-decoration: underline;
+}
