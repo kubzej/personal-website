@@ -6,8 +6,5 @@ body {
   min-height: 100vh;
   background: linear-gradient(135deg, #9ba9b5 0%, #bdc3c7 100%);
   color: #333333;
-}
-
-* {
   font-family: 'Raleway', sans-serif;
 }
