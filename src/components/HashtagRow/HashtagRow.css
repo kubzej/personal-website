@@ -5,6 +5,7 @@
   gap: 20px;
   padding: 20px 0;
   padding-left: 250px;
+  margin-top: 40px;
   color: #333333;
   background-color: #bdc3c7;
   width: calc(100% - 250px);
@@ -15,4 +16,10 @@
 
 .hashtag-row h3 {
   color: #ffffff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hashtag-row h3:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }

@@ -14,7 +14,7 @@ function App() {
 
       <div id='about'>
         <MainTitle />
-        <SubTitle text='Enthusiast with a passion for continuous learning and development. Holding strong values such as empathy and team spirit.' />
+        <SubTitle text='Enthusiast with a passion for continuous learning and development. Holding values such as empathy and team spirit.' />
         <HashtagRow />
       </div>
 
