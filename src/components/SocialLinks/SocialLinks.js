@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './SocialLinks.css';
 
 const SocialLinks = () => {
@@ -17,6 +17,14 @@ const SocialLinks = () => {
         className='icon'
       >
         <FontAwesomeIcon icon={faLinkedin} size='2x' />
+      </a>
+      <a
+        href='https://github.com/kubzej'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='icon'
+      >
+        <FontAwesomeIcon icon={faGithub} size='2x' />
       </a>
     </div>
   );
