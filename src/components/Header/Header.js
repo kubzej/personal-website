@@ -22,17 +22,6 @@ const Header = () => {
           </Link>
           <Link
             activeClass='active'
-            to='work'
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className='nav-link'
-          >
-            Work
-          </Link>
-          <Link
-            activeClass='active'
             to='contact'
             spy={true}
             smooth={true}
