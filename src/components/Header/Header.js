@@ -8,7 +8,7 @@ const Header = () => {
     <header className='header'>
       <div className='header-content'>
         <img src={logo} alt='Logo' className='logo' />
-        <nav className='nav-bar'>
+        {/* <nav className='nav-bar'>
           <Link
             activeClass='active'
             to='about'
@@ -31,7 +31,7 @@ const Header = () => {
           >
             Contact
           </Link>
-        </nav>
+        </nav> */}
       </div>
     </header>
   );

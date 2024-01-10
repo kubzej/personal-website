@@ -15,11 +15,14 @@ function App() {
       <div id='about'>
         <MainTitle />
         {/* <SubTitle text='Enthusiast with a passion for continuous learning and development. Holding values such as empathy and team spirit.' /> */}
-        <HashtagRow />
       </div>
 
       <div id='contact'>
         <SocialLinks />
+      </div>
+
+      <div id='hashtags'>
+        <HashtagRow />
       </div>
     </div>
   );
