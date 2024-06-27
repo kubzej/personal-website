@@ -1,18 +1,3 @@
-/* MainTitle.css */
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
 .main-title {
-  margin-top: 100px;
-  padding-top: 20px;
-  padding-left: 250px;
-  text-align: left;
-  font-family: 'Architects Daughter', sans-serif;
-  font-size: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .main-title {
-    padding-left: 50px;
-    font-size: 16px;
-  }
+  display: block;
 }

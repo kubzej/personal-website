@@ -1,8 +1,7 @@
 .social-links {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 40px;
-  padding-left: 250px;
   margin-top: 20px;
 }
 
@@ -14,11 +13,4 @@
 .icon:hover {
   transform: scale(1.2);
   color: #4a535c;
-}
-
-@media screen and (max-width: 768px) {
-  .social-links {
-    justify-content: left;
-    padding-left: 50px;
-  }
 }
